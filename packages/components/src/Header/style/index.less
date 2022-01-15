@@ -1,0 +1,80 @@
+@import '../../style/mixins/index.less';
+@header-height: 60px;
+
+.@{lib-prefix}-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: @header-height;
+  padding: 0 @space;
+  line-height: 1;
+  background-color: @primary-color;
+
+  &-left {
+    display: flex;
+    align-items: center;
+  }
+
+  &-logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    &::after {
+      position: absolute;
+      right: 10px;
+      width: 1px;
+      height: 15px;
+      background-color: rgba(255, 255, 255, 0.4);
+      content: '';
+    }
+
+    &__image {
+      width: 100px;
+      margin-right: 20px;
+
+      img {
+        width: 100%;
+        vertical-align: middle;
+      }
+    }
+
+    &__text {
+      display: flex;
+      align-items: center;
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+
+  &-right {
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+
+  &-dropdown {
+    &__wrap {
+      box-shadow: 0 6px 16px -8px rgba(0, 0, 0, 0.08),
+        0 9px 28px 0 rgba(0, 0, 0, 0.05), 0 12px 48px 16px rgba(0, 0, 0, 0.03);
+
+      .ant-dropdown-menu {
+        padding: 8px 0;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  &-userbox {
+    margin-left: @space;
+    cursor: pointer;
+
+    &__username {
+      span:first-child {
+        margin-right: @space / 2;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@un/icons",
+  "version": "1.0.0",
+  "description": "通用图标",
+  "keywords": [
+    "icons",
+    "un-icons",
+    "un-icons",
+    "@un/icons"
+  ],
+  "author": "maxiangsai <maxiangsai@163.com>",
+  "license": "ISC",
+  "main": "lib/index",
+  "module": "es/index",
+  "typings": "src/index.ts",
+  "files": [
+    "lib",
+    "es",
+    "package.json",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "generate": "npx @svgr/cli -d src/ assets --typescript --ref"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "gitHead": "6cede68962a5435967019d1553732f1bd04cf6cd"
+}

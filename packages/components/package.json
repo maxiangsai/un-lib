@@ -1,0 +1,55 @@
+{
+  "name": "@un/components",
+  "version": "0.10.0",
+  "description": "通用组件库",
+  "keywords": [
+    "components",
+    "components",
+    "un-components",
+    "@un/components"
+  ],
+  "author": "maxiangsai <maxiangsai@163.com>",
+  "license": "ISC",
+  "main": "lib/index",
+  "module": "es/index",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "es",
+    "package.json",
+    "README.md"
+  ],
+  "sideEffects": [
+    "*.less"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "antd": "4.x",
+    "react": ">=16.9.0"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@ant-design/pro-form": "^1.38.1",
+    "@un/hooks": "^0.0.1",
+    "@un/icons": "^0.0.1",
+    "ahooks": "^2.10.9",
+    "antd": "^4.16.8",
+    "axios": "^0.21.1",
+    "bricks.js": "^1.8.0",
+    "classnames": "^2.3.1",
+    "parse": "^3.3.0",
+    "ramda": "^0.27.1",
+    "react": "^17.0.2",
+    "react-transition-group": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/bricks.js": "^1.8.2",
+    "@types/parse": "^2.18.8",
+    "@types/ramda": "^0.27.44",
+    "@types/react-color": "^3.0.5",
+    "@types/react-transition-group": "^4.4.2"
+  },
+  "gitHead": "6cede68962a5435967019d1553732f1bd04cf6cd"
+}

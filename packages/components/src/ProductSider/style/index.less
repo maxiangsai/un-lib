@@ -1,0 +1,304 @@
+@import '../../style/mixins/index.less';
+
+.@{lib-prefix}-product-item {
+  position: relative;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+
+  &-text {
+    width: calc(100% - 50px);
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  &-subscribe {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 100%;
+
+    .anticon {
+      margin-right: 0;
+      color: #faad14;
+      font-size: 16px;
+    }
+
+    &.is-subscribe {
+      .anticon {
+        color: #faad14;
+      }
+    }
+  }
+}
+
+.@{lib-prefix}-product-sider {
+  position: relative;
+  height: 100%;
+  background-color: #fff;
+
+  .ant-layout-sider {
+    position: relative;
+    z-index: 100;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    transition: all 0.3s linear;
+    .scroll-style;
+
+    .ant-menu-inline,
+    .ant-menu-vertical,
+    .ant-menu-vertical-left {
+      border-right: 1px solid #e6e8eb;
+    }
+  }
+
+  &.open-mask {
+    .ant-menu-inline,
+    .ant-menu-vertical,
+    .ant-menu-vertical-left {
+      border-right: 1px solid #e6e8eb;
+    }
+
+    .un-product-sider-all {
+      border-right: 1px solid #e6e8eb;
+    }
+  }
+
+  &-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    padding: 0 16px 0 16px;
+    font-size: 14px;
+    background-color: #fff;
+    border-right: 1px solid #e6e8eb;
+    border-bottom: 1px solid #e6e8eb;
+    cursor: pointer;
+    transition: all 0.3s linear;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+
+    .icon {
+      width: 16px;
+      height: 16px;
+      font-size: 16px;
+    }
+
+    .left {
+      display: flex;
+      align-items: center;
+
+      .text {
+        margin-left: 18px;
+        color: rgba(0, 0, 0, 0.85);
+        font-size: 14px;
+        line-height: 22px;
+      }
+    }
+  }
+
+  &__subscribe-list {
+    height: calc(100% - 48px);
+
+    .ant-menu-item {
+      position: relative;
+      display: flex;
+      align-items: center;
+      margin-top: 4px;
+
+      > span:last-child {
+        position: absolute;
+        right: 0;
+        width: calc(100% - 48px);
+        height: 100%;
+      }
+
+      .ant-menu-item-icon {
+        color: rgba(0, 0, 0, 0.65);
+        font-size: 18px;
+        line-height: 1;
+
+        path {
+          fill: rgba(0, 0, 0, 0.65);
+        }
+      }
+
+      &:hover,
+      &.ant-menu-item-selected {
+        .@{lib-prefix}-product-item {
+          &-text {
+            color: @primary-color;
+          }
+        }
+
+        .ant-menu-item-icon {
+          path {
+            fill: @primary-color;
+          }
+        }
+      }
+
+      &.tooltip-open {
+        color: #fff;
+      }
+    }
+
+    &.ant-menu-inline-collapsed > .ant-menu-item {
+      padding: 0 16px;
+    }
+  }
+}
+
+.@{lib-prefix}-product-list-mark {
+  &-wrap {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    transition: all 0.3s linear;
+  }
+
+  &__mask {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+
+  position: relative;
+  z-index: 2;
+  width: 640px;
+  height: 100%;
+  padding: 16px 0 16px 20px;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #e6e8eb;
+  border-left: none;
+  transition: all 0.3s linear;
+
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 32px;
+  }
+
+  &__close {
+    width: 30px;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+
+  &-body {
+    height: calc(100% - 64px);
+    margin-top: 24px;
+
+    .scroll-style;
+  }
+
+  &__searchbox {
+    width: 328px;
+  }
+
+  .@{lib-prefix}-category {
+    width: 272px;
+    margin-bottom: 48px;
+    // 多列布局子元素设置该属性，防止元素内部中断
+    break-inside: avoid;
+
+    &__title {
+      margin-bottom: 6px;
+      padding-left: 10px;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    &__list {
+      &-item {
+        height: 34px;
+        padding: 0 10px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.04);
+        }
+      }
+    }
+  }
+}
+
+.mask {
+  &-enter {
+    transform: translateX(-100%);
+    opacity: 0.01;
+
+    &-active {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  &-exit {
+    transform: translateX(0);
+    opacity: 1;
+
+    &-active {
+      transform: translateX(-100%);
+      opacity: 0.01;
+    }
+  }
+}
+
+.@{lib-prefix}-project-selector {
+  &-modal-header {
+    h3 {
+      margin-bottom: 4px;
+      color: #272f3b;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    p {
+      margin-bottom: 0;
+      color: #94979b;
+      font-size: 12px;
+    }
+  }
+
+  &-icon {
+    font-size: 20px;
+  }
+
+  &-list {
+    min-height: 200px;
+  }
+
+  &-item {
+    cursor: pointer;
+
+    .ant-list-item-meta-description {
+      color: rgba(0, 0, 0, 0.85);
+    }
+
+    &:hover {
+      background-color: #f0f0f0;
+    }
+  }
+}

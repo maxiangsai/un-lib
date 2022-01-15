@@ -1,0 +1,56 @@
+@prefix: un-step-selector;
+
+.@{prefix} {
+  &-head {
+    p {
+      color: rgba(0, 0, 0, 0.35);
+      font-size: 12px;
+    }
+  }
+  &__selected {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: @bg-color;
+    border-radius: 5px;
+    &--label {
+      margin-right: 10px;
+    }
+  }
+  &__search-form {
+    margin-bottom: 20px;
+  }
+  &__step-item-pane {
+    &--head {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    &--back {
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    &--title {
+      color: rgba(0, 0, 0, 0.35);
+    }
+  }
+  &__history {
+    padding: 10px 20px;
+    background-color: @bg-color;
+    border-radius: 5px;
+    &--head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &--content {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &--item {
+      margin: 5px 5px 5px 0;
+      cursor: pointer;
+    }
+  }
+}
