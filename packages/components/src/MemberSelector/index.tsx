@@ -1,7 +1,7 @@
 import React, { useState, forwardRef, useImperativeHandle } from 'react';
 
 import { Modal } from 'antd';
-import { useFloatLayer } from '@un/hooks';
+import { useFloatLayer } from '@xt/hooks';
 
 import Core from './Core';
 import type { AssertService } from '../service/types';
@@ -47,7 +47,7 @@ const MemberSelector = forwardRef<MemberSelectorRef, MemberSelectorProps>(
         onOk={okHandle}
         onCancel={close}
         title="选择工程成员"
-        className="un-member-selector"
+        className="xt-member-selector"
         width="70%"
         destroyOnClose={true}
       >

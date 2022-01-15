@@ -169,7 +169,7 @@ const Core = ({
   }, [onChange, selectedMemberList]);
 
   return (
-    <Row className={classNames('un-member-selector', className)} style={style}>
+    <Row className={classNames('xt-member-selector', className)} style={style}>
       <Col span={8}>
         <DepartmentTree
           loading={treeLoading}

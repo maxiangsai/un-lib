@@ -215,7 +215,7 @@ const ProductSider = (props: ProductSiderProps) => {
     <>
       <ProductSiderContext.Provider value={contextValue}>
         <div
-          className={classNames('un-product-sider', { 'open-mask': showMask })}
+          className={classNames('xt-product-sider', { 'open-mask': showMask })}
           ref={siderRef}
           style={wrapperStyle}
         >
@@ -230,7 +230,7 @@ const ProductSider = (props: ProductSiderProps) => {
             <All />
             <Menu
               mode="inline"
-              className="un-product-sider__subscribe-list"
+              className="xt-product-sider__subscribe-list"
               inlineIndent={16}
               theme="light"
               onMouseEnter={enterItemHandle}

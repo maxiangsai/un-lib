@@ -7,9 +7,9 @@ interface Props {
 
 const Pane = ({ children, title }: PropsWithChildren<Props>) => {
   return (
-    <div className="un-pane">
-      <div className="un-pane-title">{title}</div>
-      <div className="un-pane-content">{children}</div>
+    <div className="xt-pane">
+      <div className="xt-pane-title">{title}</div>
+      <div className="xt-pane-content">{children}</div>
     </div>
   );
 };

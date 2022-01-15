@@ -110,23 +110,23 @@ const StepItemPane = ({
   }
 
   return (
-    <div className="un-step-selector__step-item-pane">
-      <div className="un-step-selector__step-item-pane--head">
+    <div className="xt-step-selector__step-item-pane">
+      <div className="xt-step-selector__step-item-pane--head">
         {showBack && (
           <div
-            className="un-step-selector__step-item-pane--back"
+            className="xt-step-selector__step-item-pane--back"
             onClick={onBack}
           >
             <LeftOutlined />
             返回
           </div>
         )}
-        <span className="un-step-selector__step-item-pane--title">
+        <span className="xt-step-selector__step-item-pane--title">
           请选择{title}
         </span>
       </div>
       {formSchema && formSchema.length > 0 && (
-        <div className="un-step-selector__search-form">
+        <div className="xt-step-selector__search-form">
           <BetaSchemaForm
             layout="inline"
             columns={formSchema}

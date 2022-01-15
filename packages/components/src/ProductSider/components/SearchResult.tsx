@@ -11,8 +11,8 @@ interface Props {
 
 const SearchResult = ({ searchList }: Props) => {
   return (
-    <div className="un-search-result">
-      <div className="un-search-result-count">
+    <div className="xt-search-result">
+      <div className="xt-search-result-count">
         找到{searchList?.length}个结果
       </div>
       <List

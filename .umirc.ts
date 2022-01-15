@@ -4,7 +4,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 const publicPath = isProduction ? process.env.PUBLIC_PATH || '/' : '/';
 
 export default defineConfig({
-  title: 'un-lib',
+  title: 'xt-lib',
   mode: 'site',
   publicPath,
   favicon:
@@ -30,7 +30,7 @@ export default defineConfig({
     null,
     {
       title: 'GitLab',
-      path: 'https://gz-gitlab.vipthink.cn/fe-awesome/un-lib',
+      path: 'https://gz-gitlab.vipthink.cn/fe-awesome/xt-lib',
     },
   ],
   theme: {

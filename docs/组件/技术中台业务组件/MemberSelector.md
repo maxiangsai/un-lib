@@ -9,7 +9,7 @@
 ```tsx
 import React, { useState, useMemo, useRef } from 'react';
 import { Button, Alert, Form, Input, message } from 'antd';
-import { MemberSelector } from '@un/components';
+import { MemberSelector } from '@xt/components';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 import axios from 'axios';
 import { useRequest } from 'ahooks';

@@ -4,7 +4,7 @@ import { Modal } from 'antd';
 import DefaultAdd from './DefaultAdd';
 import Grid from '../Grid';
 
-import { useFloatLayer } from '@un/hooks';
+import { useFloatLayer } from '@xt/hooks';
 
 import adjust from 'ramda/es/adjust';
 import always from 'ramda/es/always';

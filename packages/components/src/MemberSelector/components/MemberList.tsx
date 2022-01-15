@@ -68,23 +68,23 @@ const MemberList = ({
           checked={allCheck}
           indeterminate={indeterminate}
           onChange={(e) => onCheckAllChange(e.target.checked)}
-          className="un-project-member-list__title"
+          className="xt-project-member-list__title"
         >
           用户列表({total})
         </Checkbox>
       }
     >
-      <div className="un-project-member-list">
+      <div className="xt-project-member-list">
         <Input.Search
           value={searchValue}
           placeholder="支持姓名、昵称、工号、手机号码、邮箱、用户ID搜索"
           onSearch={searchHandle}
           onChange={(e) => setSearchValue(e.target.value)}
         />
-        <div className="un-project-member-list-content">
+        <div className="xt-project-member-list-content">
           {loading ? (
             <Spin
-              className="un-project-member-list-content__searching"
+              className="xt-project-member-list-content__searching"
               spinning={loading}
               tip="正在加载用户数据..."
             />
@@ -122,7 +122,7 @@ const MemberList = ({
               <Pagination
                 total={total}
                 current={page}
-                className="un-project-member-list__pager"
+                className="xt-project-member-list__pager"
                 simple
                 itemRender={itemRender}
                 onChange={pageChange}

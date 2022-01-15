@@ -53,8 +53,8 @@ import {
   Modal,
   Descriptions,
 } from 'antd';
-import { Grid } from '@un/components';
-import { useFloatLayer } from '@un/hooks';
+import { Grid } from '@xt/components';
+import { useFloatLayer } from '@xt/hooks';
 
 const genderOptions = [
   { label: 'man', value: 'man' },
@@ -224,7 +224,7 @@ import {
   Modal,
   Descriptions,
 } from 'antd';
-import { Grid, FloatLayerSelector } from '@un/components';
+import { Grid, FloatLayerSelector } from '@xt/components';
 
 const genderOptions = [
   { label: 'man', value: 'man' },

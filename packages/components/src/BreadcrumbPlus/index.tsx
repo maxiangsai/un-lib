@@ -108,7 +108,7 @@ const BreadcrumbPlus = ({
   }, [curRoute, matchData]);
 
   return (
-    <div className={classnames('un-breadcrumb-plus', className)} style={style}>
+    <div className={classnames('xt-breadcrumb-plus', className)} style={style}>
       <Breadcrumb {...antBreadcrumbProps}>
         {paths.map((item) => {
           return (

@@ -13,7 +13,7 @@ interface Props {
 const SelectedUserList = (props: Props) => {
   return (
     <Pane title={`已选择用户(${props.data.length})`}>
-      <div className="un-selected-user-list">
+      <div className="xt-selected-user-list">
         {props.data.map((item) => {
           return (
             <Tag

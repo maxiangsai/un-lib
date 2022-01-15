@@ -1,12 +1,12 @@
 {
-  "name": "@un/components",
+  "name": "@xt/components",
   "version": "1.0.4",
   "description": "通用组件库",
   "keywords": [
     "components",
     "components",
-    "un-components",
-    "@un/components"
+    "xt-components",
+    "@xt/components"
   ],
   "author": "maxiangsai <maxiangsai@163.com>",
   "license": "ISC",
@@ -32,8 +32,8 @@
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@ant-design/pro-form": "^1.38.1",
-    "@un/hooks": "^0.0.1",
-    "@un/icons": "^0.0.1",
+    "@xt/hooks": "^0.0.1",
+    "@xt/icons": "^0.0.1",
     "ahooks": "^2.10.9",
     "antd": "^4.16.8",
     "axios": "^0.21.1",
@@ -51,5 +51,5 @@
     "@types/react-color": "^3.0.5",
     "@types/react-transition-group": "^4.4.2"
   },
-  "gitHead": "6cede68962a5435967019d1553732f1bd04cf6cd"
+  "gitHead": "0d4ec2780e0a5b3051fe2cfdf5d8a3eb60a9b55c"
 }

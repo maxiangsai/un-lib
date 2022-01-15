@@ -21,7 +21,7 @@ import StepItemPane from './StepItemPane';
 import StepSelectorHistory from './StepSelectorHistory';
 import StepSelectorSelected from './StepSelectorSelected';
 // @ts-ignore
-import { useFloatLayer } from '@un/hooks';
+import { useFloatLayer } from '@xt/hooks';
 import { useLocalStorageState } from 'ahooks';
 
 export type StepSelectorProps = CommonProps & {
@@ -82,7 +82,7 @@ const StepSelector = forwardRef<StepSelectorRef, StepSelectorProps>(
     );
 
     const modalTitle = (
-      <div className="un-step-selector-head">
+      <div className="xt-step-selector-head">
         <h4 style={{ margin: 0 }}>{title}</h4>
         <p style={{ margin: 0 }}>{subTitle}</p>
       </div>
@@ -154,7 +154,7 @@ const StepSelector = forwardRef<StepSelectorRef, StepSelectorProps>(
         title={modalTitle}
       >
         <Spin spinning={lastLoading} tip="正在处理...">
-          <div className="un-step-selector" {...props}>
+          <div className="xt-step-selector" {...props}>
             <StepSelectorHistory
               onClickItem={handleLastClick}
               onClear={handleClear}

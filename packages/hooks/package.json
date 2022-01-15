@@ -1,12 +1,12 @@
 {
-  "name": "@un/hooks",
+  "name": "@xt/hooks",
   "version": "1.0.4",
   "description": "通用自定义hooks",
   "keywords": [
     "hooks",
-    "un-hooks",
-    "un-hooks",
-    "@un/hooks"
+    "xt-hooks",
+    "xt-hooks",
+    "@xt/hooks"
   ],
   "author": "maxiangsai <maxiangsai@163.com>",
   "license": "ISC",
@@ -29,5 +29,5 @@
   "dependencies": {
     "react": "^17.0.2"
   },
-  "gitHead": "6cede68962a5435967019d1553732f1bd04cf6cd"
+  "gitHead": "0d4ec2780e0a5b3051fe2cfdf5d8a3eb60a9b55c"
 }

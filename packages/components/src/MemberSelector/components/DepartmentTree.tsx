@@ -32,16 +32,16 @@ const DepartmentTree = (props: Props) => {
 
   return (
     <Pane title="部门">
-      <div className="un-member-selector-depart-tree">
+      <div className="xt-member-selector-depart-tree">
         <Input.Search
           placeholder="请输入部门名称，按回车搜索"
           onSearch={searchHandle}
         />
 
-        <div className="un-member-selector-depart-tree__content">
+        <div className="xt-member-selector-depart-tree__content">
           {loading ? (
             <Spin
-              className="un-member-selector-depart-tree__loading"
+              className="xt-member-selector-depart-tree__loading"
               tip="正在加载部门数据"
             />
           ) : isSearch ? (

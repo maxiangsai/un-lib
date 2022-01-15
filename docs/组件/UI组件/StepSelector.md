@@ -4,7 +4,7 @@
 
 ```tsx
 import { Alert, Button, Form, Input, List, Space, Tag, message }  from 'antd';
-import { Iconfont, StepSelector } from '@un/components';
+import { Iconfont, StepSelector } from '@xt/components';
 import { LockOutlined, UserOutlined } from '@ant-design/icons';
 import React, {useMemo, useRef, useState}  from 'react';
 

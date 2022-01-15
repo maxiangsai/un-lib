@@ -13,8 +13,8 @@ const StepSelectorSelected = ({
   selectedConfig,
 }: StepSelectorSelectedProps) => {
   return (
-    <div className="un-step-selector__selected">
-      <div className="un-step-selector__selected--label">当前选择:</div>
+    <div className="xt-step-selector__selected">
+      <div className="xt-step-selector__selected--label">当前选择:</div>
       {selectedItemList.length === 0 ? (
         <span>暂未选择</span>
       ) : (

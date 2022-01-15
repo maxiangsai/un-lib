@@ -1,5 +1,5 @@
 // @ts-ignore
-import * as icons from '@un/icons';
+import * as icons from '@xt/icons';
 
 import type { CSSProperties } from 'react';
 import Icon from '@ant-design/icons';

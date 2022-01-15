@@ -1,8 +1,8 @@
 ---
-title: un-lib
+title: xt-lib
 order: 10
 hero:
-  title: un-lib
+  title: xt-lib
   desc: vipthink-library
   actions:
     - text: 快速开始
@@ -21,38 +21,38 @@ features:
 
 ## 轻松上手
 
-### @un/components
+### @xt/components
 
 ```shell
-npm install @un/components --save --registry=http://nexus-op.vipthink.cn/repository/npm-group
+npm install @xt/components --save --registry=http://nexus-op.vipthink.cn/repository/npm-group
 ```
 
 或者
 
 ```shell
-yarn add @un/components --registry=http://nexus-op.vipthink.cn/repository/npm-group
+yarn add @xt/components --registry=http://nexus-op.vipthink.cn/repository/npm-group
 ```
 
-### @un/hooks
+### @xt/hooks
 
 ```shell
-npm install @un/hooks --save --registry=http://nexus-op.vipthink.cn/repository/npm-group
-```
-
-或者
-
-```shell
-yarn add @un/hooks --registry=http://nexus-op.vipthink.cn/repository/npm-group
-```
-
-### @un/icons
-
-```shell
-npm install @un/icons --save --registry=http://nexus-op.vipthink.cn/repository/npm-group
+npm install @xt/hooks --save --registry=http://nexus-op.vipthink.cn/repository/npm-group
 ```
 
 或者
 
 ```shell
-yarn add @un/icons --registry=http://nexus-op.vipthink.cn/repository/npm-group
+yarn add @xt/hooks --registry=http://nexus-op.vipthink.cn/repository/npm-group
+```
+
+### @xt/icons
+
+```shell
+npm install @xt/icons --save --registry=http://nexus-op.vipthink.cn/repository/npm-group
+```
+
+或者
+
+```shell
+yarn add @xt/icons --registry=http://nexus-op.vipthink.cn/repository/npm-group
 ```
