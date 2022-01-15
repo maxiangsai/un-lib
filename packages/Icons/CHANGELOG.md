@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/maxiangsai/un-lib/compare/@xt/icons@1.1.0...@xt/icons@1.2.0) (2022-01-15)
+
+### Features
+
+- 1.1.0 ([7915a6a](https://github.com/maxiangsai/un-lib/commit/7915a6acd62b2dccedbd91077f6bef41350e76be))
+
 # 1.1.0 (2022-01-15)
 
 ### Features
