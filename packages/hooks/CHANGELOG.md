@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/maxiangsai/un-lib/compare/@unicom/hooks@1.3.0...@unicom/hooks@1.4.0) (2022-01-17)
+
+### Features
+
+- init unicom ([2ad034f](https://github.com/maxiangsai/un-lib/commit/2ad034f9f79a562e54f703350a2feed76fbc94a4))
+
 # 1.3.0 (2022-01-17)
 
 ### Features
