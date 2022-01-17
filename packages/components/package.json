@@ -1,12 +1,12 @@
 {
-  "name": "@xt/components",
+  "name": "@unicom/components",
   "version": "1.2.0",
   "description": "通用组件库",
   "keywords": [
     "components",
     "components",
-    "xt-components",
-    "@xt/components"
+    "unicom-components",
+    "@unicom/components"
   ],
   "author": "maxiangsai <maxiangsai@163.com>",
   "license": "ISC",
@@ -32,8 +32,8 @@
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@ant-design/pro-form": "^1.38.1",
-    "@xt/hooks": "^1.2.0",
-    "@xt/icons": "^1.2.0",
+    "@unicom/hooks": "^1.2.0",
+    "@unicom/icons": "^1.2.0",
     "ahooks": "^2.10.9",
     "antd": "^4.16.8",
     "axios": "^0.21.1",
@@ -51,5 +51,5 @@
     "@types/react-color": "^3.0.5",
     "@types/react-transition-group": "^4.4.2"
   },
-  "gitHead": "d00e95358dc8d5d4d57bdb5cc823be091b5ed199"
+  "gitHead": "8f82f29e7c34bc19ba33e65cb3df46d9f7dd87c8"
 }

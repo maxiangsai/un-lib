@@ -8,7 +8,7 @@
 
 ```tsx
 import React from 'react';
-import { Header } from '@xt/components';
+import { Header } from '@unicom/components';
 
 export default () => {
   return <Header username="lihai" />;
@@ -19,7 +19,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Header } from '@xt/components';
+import { Header } from '@unicom/components';
 
 export default () => {
   const LeftNode = <div style={{ color: '#fff' }}>Hello world!</div>;
@@ -31,7 +31,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Header } from '@xt/components';
+import { Header } from '@unicom/components';
 export default () => {
   const RightNode = <div style={{ color: '#fff' }}>Hello world!</div>;
   return <Header username="lihai" rightNode={RightNode} />;
@@ -42,7 +42,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Header } from '@xt/components';
+import { Header } from '@unicom/components';
 export default () => {
   const RightNode = <div style={{ color: '#fff' }}>Hello world!</div>;
 
@@ -63,7 +63,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Header } from '@xt/components';
+import { Header } from '@unicom/components';
 export default () => {
   const LogoImage = (
     <img src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" />
@@ -82,7 +82,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Header } from '@xt/components';
+import { Header } from '@unicom/components';
 export default () => {
   return (
     <Header

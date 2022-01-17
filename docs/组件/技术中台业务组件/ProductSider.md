@@ -8,7 +8,7 @@
 
 ```tsx
 import React, { useState, useMemo, useRef } from 'react';
-import { ProductSider } from '@xt/components';
+import { ProductSider } from '@unicom/components';
 import { Button, Alert, Form, Input, message } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 import axios from 'axios';
@@ -107,7 +107,7 @@ export default () => {
 ```tsx
 import React from 'react';
 import { Layout, Button } from 'antd';
-import { ProductSider } from '@xt/components';
+import { ProductSider } from '@unicom/components';
 import { useAuth, LoginForm } from '../../../packages/hooks/src/demo/useAuth';
 
 const DEVOPS_HOST = 'http://dev-devops.vipthink.net';
@@ -145,7 +145,7 @@ export default () => {
 ```tsx
 import React from 'react';
 import { Layout, Button } from 'antd';
-import { ProductSider } from '@xt/components';
+import { ProductSider } from '@unicom/components';
 import { useAuth, LoginForm } from '../../../packages/hooks/src/demo/useAuth';
 
 const DEVOPS_HOST = 'http://dev-devops.vipthink.net';
@@ -187,7 +187,7 @@ export default () => {
 ```tsx
 import React from 'react';
 import { Layout, Button } from 'antd';
-import { ProductSider } from '@xt/components';
+import { ProductSider } from '@unicom/components';
 import { useAuth, LoginForm } from '../../../packages/hooks/src/demo/useAuth';
 
 const DEVOPS_HOST = 'http://dev-devops.vipthink.net';
@@ -229,7 +229,7 @@ export default () => {
  */
 import React from 'react';
 import { Layout, Button, Menu, message } from 'antd';
-import { ProductSider, Header } from '@xt/components';
+import { ProductSider, Header } from '@unicom/components';
 import { useAuth, LoginForm } from '../../../packages/hooks/src/demo/useAuth';
 
 const DEVOPS_HOST = 'http://dev-devops.vipthink.net';

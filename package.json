@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "xt-lib",
+  "name": "unicom-lib",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {

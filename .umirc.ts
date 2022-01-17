@@ -4,13 +4,12 @@ const isProduction = process.env.NODE_ENV === 'production';
 const publicPath = isProduction ? process.env.PUBLIC_PATH || '/' : '/';
 
 export default defineConfig({
-  title: 'xt-lib',
+  title: 'unicom-lib',
   mode: 'site',
   publicPath,
   favicon:
     'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
-  logo:
-    'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
+  logo: 'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   outputPath: 'docs-dist',
   // more config: https://d.umijs.org/config
   history: {
@@ -30,7 +29,7 @@ export default defineConfig({
     null,
     {
       title: 'GitLab',
-      path: 'https://gz-gitlab.vipthink.cn/fe-awesome/xt-lib',
+      path: 'https://gz-gitlab.vipthink.cn/fe-awesome/unicom-lib',
     },
   ],
   theme: {

@@ -21,7 +21,7 @@ import StepItemPane from './StepItemPane';
 import StepSelectorHistory from './StepSelectorHistory';
 import StepSelectorSelected from './StepSelectorSelected';
 // @ts-ignore
-import { useFloatLayer } from '@xt/hooks';
+import { useFloatLayer } from '@unicom/hooks';
 import { useLocalStorageState } from 'ahooks';
 
 export type StepSelectorProps = CommonProps & {

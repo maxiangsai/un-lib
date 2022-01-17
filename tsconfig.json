@@ -12,7 +12,7 @@
     "declaration": true, // 是否生成类型声明文件
     "paths": {
       // "@packages": ["packages/*"],
-      // "@xt/icons": ["packages/Icons/src/*"]
+      // "@unicom/icons": ["packages/Icons/src/*"]
     },
     "typeRoots": ["./typings.d.ts"],
     "allowSyntheticDefaultImports": true,

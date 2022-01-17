@@ -8,7 +8,7 @@
 
 ```tsx
 import React from 'react';
-import { Iconfont } from '@xt/components';
+import { Iconfont } from '@unicom/components';
 
 export default () => {
   return <Iconfont type="devops" style={{ fontSize: '30px' }} />;
@@ -19,7 +19,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Iconfont } from '@xt/components';
+import { Iconfont } from '@unicom/components';
 import { Tooltip, Typography } from 'antd';
 
 const iconTypes = [

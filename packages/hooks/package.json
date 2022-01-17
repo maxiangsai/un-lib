@@ -1,12 +1,12 @@
 {
-  "name": "@xt/hooks",
+  "name": "@unicom/hooks",
   "version": "1.2.0",
   "description": "通用自定义hooks",
   "keywords": [
     "hooks",
-    "xt-hooks",
-    "xt-hooks",
-    "@xt/hooks"
+    "unicom-hooks",
+    "unicom-hooks",
+    "@unicom/hooks"
   ],
   "author": "maxiangsai <maxiangsai@163.com>",
   "license": "ISC",
@@ -29,5 +29,5 @@
   "dependencies": {
     "react": "^17.0.2"
   },
-  "gitHead": "d00e95358dc8d5d4d57bdb5cc823be091b5ed199"
+  "gitHead": "8f82f29e7c34bc19ba33e65cb3df46d9f7dd87c8"
 }

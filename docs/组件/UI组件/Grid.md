@@ -8,7 +8,7 @@
 
 ```tsx
 import React from 'react';
-import { Grid } from '@xt/components';
+import { Grid } from '@unicom/components';
 export default () => {
   return (
     <div>
@@ -26,7 +26,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Grid } from '@xt/components';
+import { Grid } from '@unicom/components';
 import { Form, Input, Button, Row } from 'antd';
 export default () => {
   return (
@@ -72,7 +72,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Grid } from '@xt/components';
+import { Grid } from '@unicom/components';
 import { Card, Button, Row, Input, Col, Space } from 'antd';
 
 const projects = [

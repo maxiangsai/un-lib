@@ -1,7 +1,7 @@
 import React, { useState, forwardRef, useImperativeHandle } from 'react';
 
 import { Modal } from 'antd';
-import { useFloatLayer } from '@xt/hooks';
+import { useFloatLayer } from '@unicom/hooks';
 
 import Core from './Core';
 import type { AssertService } from '../service/types';

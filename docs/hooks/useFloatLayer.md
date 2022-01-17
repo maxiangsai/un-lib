@@ -18,7 +18,7 @@ const { visible, confirmLoading, okHandle, open, close } =
 ```tsx
 import React from 'react';
 import { message, Form, Modal, Input, Button } from 'antd';
-import { useFloatLayer } from '@xt/hooks';
+import { useFloatLayer } from '@unicom/hooks';
 
 const sleep = (time) => {
   return new Promise((resolve) => {
@@ -83,7 +83,7 @@ export default () => {
 ```tsx
 import React from 'react';
 import { message, Form, Row, Drawer, Input, Button } from 'antd';
-import { useFloatLayer } from '@xt/hooks';
+import { useFloatLayer } from '@unicom/hooks';
 
 const sleep = (time) => {
   return new Promise((resolve) => {
