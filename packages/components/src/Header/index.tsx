@@ -61,30 +61,31 @@ const Header = (props: HeaderProps) => {
   );
 
   return (
-    <div className="xt-header">
-      <div className="xt-header-left">
-        <div className="xt-header-logo">
+    <div className="unicom-header">
+      <div className="unicom-header-left">
+        <div className="unicom-header-logo">
           <a
             href={props.logoLink}
             target="_blank"
-            className="xt-header-logo__image"
+            className="unicom-header-logo__image"
+            rel="noreferrer"
           >
             <Tooltip title={props.logoTooltip} placement="bottom">
               {props.logoImage ? props.logoImage : <img src={defaultLogo} />}
             </Tooltip>
           </a>
         </div>
-        <div className="xt-header-left__node">{props.leftNode}</div>
+        <div className="unicom-header-left__node">{props.leftNode}</div>
       </div>
-      <div className="xt-header-right">
-        <div className="xt-header-right__node">{props.rightNode}</div>
-        <div className="xt-header-userbox">
+      <div className="unicom-header-right">
+        <div className="unicom-header-right__node">{props.rightNode}</div>
+        <div className="unicom-header-userbox">
           <Dropdown
-            className="xt-header-dropdown"
-            overlayClassName="xt-header-dropdown__wrap"
+            className="unicom-header-dropdown"
+            overlayClassName="unicom-header-dropdown__wrap"
             overlay={menu}
           >
-            <div className="xt-header-userbox__username">
+            <div className="unicom-header-userbox__username">
               <span>{props.username}</span>
               <DownOutlined />
             </div>
@@ -96,8 +97,8 @@ const Header = (props: HeaderProps) => {
 };
 
 Header.defaultProps = {
-  logoLink: 'http://cloud.vipthink.net/index.html',
-  logoTooltip: '豌豆云平台',
+  logoLink: 'http://xxx',
+  logoTooltip: '联通产互',
 };
 
 export default Header;
