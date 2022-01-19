@@ -21,20 +21,20 @@ const DepartmentSearchResult = (props: Props) => {
   );
 
   return (
-    <div className="xt-department-search-result">
+    <div className="unicom-department-search-result">
       {searching ? (
         <Spin
-          className="xt-department-search-result__searching"
+          className="unicom-department-search-result__searching"
           spinning={searching}
           tip="正在搜索中"
         />
       ) : !data.length ? (
         <Empty
-          className="xt-department-search-result__not-data"
+          className="unicom-department-search-result__not-data"
           description="暂无部门数据"
         />
       ) : (
-        <ul className="xt-department-search-result__list">
+        <ul className="unicom-department-search-result__list">
           {data.map((item) => {
             return (
               <li key={item.id} onClick={() => clickHandle(item)}>

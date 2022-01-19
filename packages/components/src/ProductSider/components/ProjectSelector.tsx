@@ -84,12 +84,15 @@ const ProjectSelector = forwardRef<ProjectSelectorRef, ProjectSelectorProps>(
     const renderItem = (project: ProjectModel) => {
       return (
         <List.Item
-          className="xt-project-selector-item"
+          className="unicom-project-selector-item"
           onClick={() => clickHandle(project)}
         >
           <List.Item.Meta
             avatar={
-              <Iconfont type="project" className="xt-project-selector-icon" />
+              <Iconfont
+                type="project"
+                className="unicom-project-selector-icon"
+              />
             }
             description={project.description}
           />
@@ -99,7 +102,7 @@ const ProjectSelector = forwardRef<ProjectSelectorRef, ProjectSelectorProps>(
 
     const modalTitle = useMemo(() => {
       return (
-        <div className="xt-project-selector-modal-header">
+        <div className="unicom-project-selector-modal-header">
           <h3>{title}</h3>
           <p>点击选择一个工程进行下一步</p>
         </div>
@@ -118,7 +121,7 @@ const ProjectSelector = forwardRef<ProjectSelectorRef, ProjectSelectorProps>(
           renderItem={renderItem}
           dataSource={props.projectList}
           rowKey="id"
-          className="xt-project-selector-list"
+          className="unicom-project-selector-list"
         />
       </Modal>
     );

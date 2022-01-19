@@ -18,7 +18,7 @@ const All = (props: Props) => {
 
   return (
     <div
-      className="xt-product-sider-all"
+      className="unicom-product-sider-all"
       style={props.style ? props.style : {}}
       onClick={hoverHandle}
     >

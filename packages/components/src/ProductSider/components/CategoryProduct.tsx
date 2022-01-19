@@ -11,17 +11,17 @@ interface Props {
 const CategoryProduct = ({ category }: Props) => {
   const renderProductList = (product: AssertService.ProductVO) => {
     return (
-      <div className="xt-category__list-item">
+      <div className="unicom-category__list-item">
         <ProductItem product={product} />
       </div>
     );
   };
   return (
-    <div className="xt-category" data-packed={category.id}>
-      <div className="xt-category__title">{category.title}</div>
+    <div className="unicom-category" data-packed={category.id}>
+      <div className="unicom-category__title">{category.title}</div>
       <List
         locale={{ emptyText: `暂无${category.title}产品` }}
-        className="xt-category__list"
+        className="unicom-category__list"
         dataSource={category.productList}
         renderItem={renderProductList}
       />

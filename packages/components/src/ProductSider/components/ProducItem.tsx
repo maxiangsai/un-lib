@@ -100,7 +100,7 @@ const ProductItem = ({ product }: Props) => {
 
   return (
     <div
-      className="xt-product-item"
+      className="unicom-product-item"
       onMouseEnter={enterHandle}
       onMouseLeave={leaveHandle}
       style={{
@@ -108,13 +108,13 @@ const ProductItem = ({ product }: Props) => {
         cursor: isUp ? 'pointer' : 'not-allowed',
       }}
     >
-      <div className="xt-product-item-text" onClick={clickHandle}>
+      <div className="unicom-product-item-text" onClick={clickHandle}>
         {product.name}
       </div>
       {finallyShowValue && isUp && (
         <div
           className={classnames({
-            'xt-product-item-subscribe': true,
+            'unicom-product-item-subscribe': true,
             'is-subscribe': product.isSubscribe,
           })}
           onClick={subscribeHandle}

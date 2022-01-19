@@ -82,7 +82,7 @@ const StepSelector = forwardRef<StepSelectorRef, StepSelectorProps>(
     );
 
     const modalTitle = (
-      <div className="xt-step-selector-head">
+      <div className="unicom-step-selector-head">
         <h4 style={{ margin: 0 }}>{title}</h4>
         <p style={{ margin: 0 }}>{subTitle}</p>
       </div>
@@ -154,7 +154,7 @@ const StepSelector = forwardRef<StepSelectorRef, StepSelectorProps>(
         title={modalTitle}
       >
         <Spin spinning={lastLoading} tip="正在处理...">
-          <div className="xt-step-selector" {...props}>
+          <div className="unicom-step-selector" {...props}>
             <StepSelectorHistory
               onClickItem={handleLastClick}
               onClear={handleClear}

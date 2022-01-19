@@ -47,7 +47,7 @@ const MemberSelector = forwardRef<MemberSelectorRef, MemberSelectorProps>(
         onOk={okHandle}
         onCancel={close}
         title="选择工程成员"
-        className="xt-member-selector"
+        className="unicom-member-selector"
         width="70%"
         destroyOnClose={true}
       >

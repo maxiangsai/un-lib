@@ -66,7 +66,7 @@ const Grid = ({
   }, [cellStyle]);
 
   return (
-    <div className={classNames('xt-grid', className)} style={style}>
+    <div className={classNames('unicom-grid', className)} style={style}>
       {newChildren.map((columns, index) => {
         return (
           <Row
@@ -88,7 +88,7 @@ const Grid = ({
                   // eslint-disable-next-line react/no-array-index-key
                   key={`grid_col_key_${i}`}
                 >
-                  <div className="xt-grid-cell" style={cellStyleCached}>
+                  <div className="unicom-grid-cell" style={cellStyleCached}>
                     {child}
                   </div>
                 </Col>

@@ -17,12 +17,12 @@ const StepSelectorHistory = ({
   onClear,
 }: StepSelectorHistoryProps) => {
   return (
-    <div className="xt-step-selector__history">
-      <div className="xt-step-selector__history--head">
-        <div className="xt-step-selector__history--title">
+    <div className="unicom-step-selector__history">
+      <div className="unicom-step-selector__history--head">
+        <div className="unicom-step-selector__history--title">
           最近查看（{historyValue.length}）
         </div>
-        <div className="xt-step-selector__history--clear">
+        <div className="unicom-step-selector__history--clear">
           <Button
             danger
             type="text"
@@ -33,7 +33,7 @@ const StepSelectorHistory = ({
           </Button>
         </div>
       </div>
-      <div className="xt-step-selector__history--content">
+      <div className="unicom-step-selector__history--content">
         {historyValue && historyValue.length > 0
           ? historyValue.map((item, index) => {
               return (
@@ -41,7 +41,7 @@ const StepSelectorHistory = ({
                   // eslint-disable-next-line react/no-array-index-key
                   key={index}
                   onClick={() => onClickItem(item)}
-                  className="xt-step-selector__history--item"
+                  className="unicom-step-selector__history--item"
                 >
                   {renderItem && renderItem(item)}
                 </div>

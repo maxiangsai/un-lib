@@ -81,17 +81,21 @@ const ProductListMark = forwardRef<HTMLDivElement, Props>(
           classNames="mask"
         >
           <div
-            className="xt-product-list-mark-wrap"
+            className="unicom-product-list-mark-wrap"
             onMouseEnter={handleEnvter}
           >
             <div
-              className="xt-product-list-mark__mask"
+              className="unicom-product-list-mark__mask"
               onClick={closeMask}
               style={{ left, width: `calc(100vw - ${left}px)` }}
-            ></div>
-            <div className="xt-product-list-mark" ref={ref} style={{ left }}>
-              <div className="xt-product-list-mark-header">
-                <div className="xt-product-list-mark__searchbox">
+            />
+            <div
+              className="unicom-product-list-mark"
+              ref={ref}
+              style={{ left }}
+            >
+              <div className="unicom-product-list-mark-header">
+                <div className="unicom-product-list-mark__searchbox">
                   <Input.Search
                     placeholder="请输入搜索关键字"
                     value={searchValue}
@@ -100,13 +104,13 @@ const ProductListMark = forwardRef<HTMLDivElement, Props>(
                   />
                 </div>
                 <div
-                  className="xt-product-list-mark__close"
+                  className="unicom-product-list-mark__close"
                   onClick={closeMask}
                 >
                   <CloseOutlined />
                 </div>
               </div>
-              <div className="xt-product-list-mark-body">
+              <div className="unicom-product-list-mark-body">
                 <div ref={container}>
                   {searchList?.map((item) => {
                     return <CategoryProduct key={item.id} category={item} />;

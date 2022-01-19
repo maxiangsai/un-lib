@@ -35,10 +35,8 @@ const Core = ({
   style,
   className,
 }: CoreProps) => {
-  const [
-    selectedMemberList,
-    setSelectedMemberList,
-  ] = useState<ProjectMemberList>([]);
+  const [selectedMemberList, setSelectedMemberList] =
+    useState<ProjectMemberList>([]);
   const {
     pid,
     treeData,
@@ -169,7 +167,10 @@ const Core = ({
   }, [onChange, selectedMemberList]);
 
   return (
-    <Row className={classNames('xt-member-selector', className)} style={style}>
+    <Row
+      className={classNames('unicom-member-selector', className)}
+      style={style}
+    >
       <Col span={8}>
         <DepartmentTree
           loading={treeLoading}
