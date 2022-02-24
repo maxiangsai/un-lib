@@ -112,7 +112,7 @@ const projects = [
   {
     id: '2d8490e6de7b0305dc183b028507d3fd',
     name: 'test-project1',
-    description: '测试工程',
+    description: '测试项目',
     archived: false,
     tags: [],
     role: 'OWNER',
@@ -134,7 +134,7 @@ const projects = [
   {
     id: 'cec8d4858b1ee755e546a1b8dd0b61b4',
     name: 'superfly',
-    description: '小飞侠工程',
+    description: '小飞侠项目',
     archived: false,
     tags: [],
     role: 'MANAGER',
@@ -145,7 +145,7 @@ const projects = [
   {
     id: '9a9075befe38d76dfbc253d884076952',
     name: 'shanghai-demo',
-    description: '上海研发团队测试工程',
+    description: '上海研发团队测试项目',
     archived: false,
     tags: [],
     role: 'MANAGER',
@@ -173,7 +173,7 @@ const projects = [
   {
     id: '3f8891223e8438d46062bf95c0ce5528',
     name: 'example',
-    description: '范例工程',
+    description: '范例项目',
     archived: false,
     tags: [],
     role: 'OWNER',
@@ -253,11 +253,11 @@ export default () => {
     <div>
       <Row justify="space-between" style={{ marginBottom: 20 }}>
         <Col span={6}>
-          <Input.Search placeholder="请输入工程名称" />
+          <Input.Search placeholder="请输入项目名称" />
         </Col>
         <Col span={5} style={{ textAlign: 'right' }}>
           <Space>
-            <Button type="primary">申请工程</Button>
+            <Button type="primary">申请项目</Button>
             <Button>申请记录</Button>
           </Space>
         </Col>

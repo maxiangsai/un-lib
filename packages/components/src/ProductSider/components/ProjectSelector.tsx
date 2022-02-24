@@ -104,7 +104,7 @@ const ProjectSelector = forwardRef<ProjectSelectorRef, ProjectSelectorProps>(
       return (
         <div className="unicom-project-selector-modal-header">
           <h3>{title}</h3>
-          <p>点击选择一个工程进行下一步</p>
+          <p>点击选择一个项目进行下一步</p>
         </div>
       );
     }, [title]);

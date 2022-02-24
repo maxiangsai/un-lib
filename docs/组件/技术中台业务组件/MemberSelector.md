@@ -162,7 +162,7 @@ export default () => {
     </tr>
     <tr>
       <td>projectId</td>
-      <td>研发效能平台的工程id，不传默认是申请模式，填写了了是排除已加入工程的成员</td>
+      <td>研发效能平台的项目id，不传默认是申请模式，填写了了是排除已加入项目的成员</td>
       <td><code>string</code></td>
       <td>-</td>
     </tr>

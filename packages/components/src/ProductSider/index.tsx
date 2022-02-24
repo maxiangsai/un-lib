@@ -51,7 +51,7 @@ export interface ProductSiderProps {
   productSiderRef?: ProductSiderRef;
 
   /**
-   * @description 工程列表
+   * @description 项目列表
    */
   projectList?: ProjectModel[];
 

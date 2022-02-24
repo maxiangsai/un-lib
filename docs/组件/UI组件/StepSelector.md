@@ -148,8 +148,8 @@ export default  ()=>{
                   title={data.name}
                   description={
                     <Space>
-                      <span>工程ID：{data.projectName}</span>
-                      <span>工程名称：{data.projectDesc}</span>
+                      <span>项目ID：{data.projectName}</span>
+                      <span>项目名称：{data.projectDesc}</span>
                     </Space>
                   }
                />

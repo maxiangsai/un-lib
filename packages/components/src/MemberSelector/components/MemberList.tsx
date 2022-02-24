@@ -109,7 +109,7 @@ const MemberList = ({
                   return (
                     <Row key={member.id}>
                       {member.projectMember ? (
-                        <Tooltip title="已在工程成员中">
+                        <Tooltip title="已在项目成员中">
                           {memberCheckbox}
                         </Tooltip>
                       ) : (

@@ -44,7 +44,7 @@ const projectList = [
   {
     id: '2d8490e6de7b0305dc183b028507d3fd',
     name: 'test-project1',
-    description: '测试工程',
+    description: '测试项目',
     archived: false,
     tags: [],
     role: 'OWNER',
@@ -64,7 +64,7 @@ const projectList = [
   {
     id: 'cec8d4858b1ee755e546a1b8dd0b61b4',
     name: 'superfly',
-    description: '小飞侠工程',
+    description: '小飞侠项目',
     archived: false,
     tags: [],
     role: 'MANAGER',
@@ -74,7 +74,7 @@ const projectList = [
   {
     id: '9a9075befe38d76dfbc253d884076952',
     name: 'shanghai-demo',
-    description: '上海研发团队测试工程',
+    description: '上海研发团队测试项目',
     archived: false,
     tags: [],
     role: 'OWNER',
@@ -316,7 +316,7 @@ export default () => {
     </tr>
     <tr>
       <td>projectList</td>
-      <td>DevOps的工程列表</td>
+      <td>DevOps的项目列表</td>
       <td><code>ProjectModel[]</code></td>
       <td>无</td>
     </tr>
