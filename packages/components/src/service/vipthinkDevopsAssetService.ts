@@ -34,17 +34,26 @@ export const getDepartmentList = (
   conf: ServiceConfig,
 ) => {
   const url = `${getAssetContext(conf.host)}/department/getDepartList`;
-
-  return axios.get<DevopsPagerResult<AssertService.IDept>>(url, {
-    params: {
-      ...data,
-      _: Date.now(),
-      tenantId,
+  console.log(url);
+  return {
+    data: {
+      code: '1',
+      payload: {
+        rows: [],
+      },
+      success: true,
     },
-    headers: {
-      Authorization: `Bearer ${conf.token}`,
-    },
-  });
+  };
+  // return axios.get<DevopsPagerResult<AssertService.IDept>>(url, {
+  //   params: {
+  //     ...data,
+  //     _: Date.now(),
+  //     tenantId,
+  //   },
+  //   headers: {
+  //     Authorization: `Bearer ${conf.token}`,
+  //   },
+  // })
 };
 
 export const getProjectMemberList = (
