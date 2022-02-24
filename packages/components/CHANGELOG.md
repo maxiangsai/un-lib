@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/maxiangsai/un-lib/compare/@unicom/components@1.4.1...@unicom/components@1.5.0) (2022-02-24)
+
+### Features
+
+- 注释部门接口 ([39221d7](https://github.com/maxiangsai/un-lib/commit/39221d75380b03a9d070cd85e83c0979789c1d13))
+
 ## [1.4.1](https://github.com/maxiangsai/un-lib/compare/@unicom/components@1.4.0...@unicom/components@1.4.1) (2022-01-19)
 
 **Note:** Version bump only for package @unicom/components
