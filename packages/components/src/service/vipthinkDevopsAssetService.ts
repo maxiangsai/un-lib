@@ -34,7 +34,7 @@ export const getDepartmentList = (
   conf: ServiceConfig,
 ) => {
   const url = `${getAssetContext(conf.host)}/department/getDepartList`;
-  console.log(url);
+  console.log('url --', url);
   return {
     data: {
       code: '1',
